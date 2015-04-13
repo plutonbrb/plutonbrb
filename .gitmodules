@@ -1,0 +1,9 @@
+[submodule "nero"]
+	path = nero
+	url = git://github.com/plutonbrb/nero.git
+[submodule "nero-wai"]
+	path = nero-wai
+	url = git://github.com/plutonbrb/nero-wai.git
+[submodule "nero-warp"]
+	path = nero-warp
+	url = git://github.com/plutonbrb/nero-warp.git
