@@ -7,3 +7,6 @@
 [submodule "nero-warp"]
 	path = nero-warp
 	url = git://github.com/plutonbrb/nero-warp.git
+[submodule "nero-examples"]
+	path = nero-examples
+	url = git://github.com/plutonbrb/nero-examples.git
