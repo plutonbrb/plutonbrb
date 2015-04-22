@@ -26,6 +26,6 @@ install:
  - travis_retry git submodule update --init --recursive
 
 script:
- - cabal install --enable-tests --enable-benchmarks ./nero
- - cabal install --enable-tests --enable-benchmarks ./nero-wai
- - cabal install --enable-tests --enable-benchmarks ./nero-warp
+ - cabal install --enable-tests --enable-benchmarks --run-tests ./nero
+ - cabal install --enable-tests --enable-benchmarks --run-tests ./nero-wai
+ - cabal install --enable-tests --enable-benchmarks --run-tests ./nero-warp
