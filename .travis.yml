@@ -24,6 +24,8 @@ install:
  - echo "$(ghc --version) [$(ghc --print-project-git-commit-id 2> /dev/null || echo '?')]"
  - travis_retry cabal update
  - travis_retry git submodule update --init --recursive
+
+script:
  - cabal install --enable-tests --enable-benchmarks ./nero
  - cabal install --enable-tests --enable-benchmarks ./nero-wai
  - cabal install --enable-tests --enable-benchmarks ./nero-warp
